@@ -1,0 +1,38 @@
+http://stackoverflow.com/ for problem in python like try catch(exceptipn) convert date type search for substring etc.
+
+
+people list from:
+http://mostfamousperson.net/
+
+pring links from twitter: connect and authorise:
+http://thomassileo.com/blog/2013/01/25/using-twitter-rest-api-v1-dot-1-with-python/
+http://nbviewer.ipython.org/urls/raw.github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition/master/ipynb/Chapter%209%20-%20Twitter%20Cookbook.ipynb
+
+connect to my account in twitter: @maturban1
+
+to filtter links, I did the following after getting the extended links:
+1- html code must be 200
+2: conetnt type: "text/html"
+3: ignore all pages from "instagram" website since they are about 60% of the original serach query
+4- split the expended link into several substring and the last one must contain one of the following a pecial character or a space(e.g. ? . "" = @ &)
+
+
+using two agragators to collect timemap memntos:
+http://mementoproxy.cs.odu.edu/aggr/timemap/link/
+http://web.archive.org/web/timemap/link/
+
+get curl output in python
+http://stackoverflow.com/questions/10158701/how-to-capture-output-of-curl-from-python-script
+
+
+try + catch:
+http://stackoverflow.com/questions/730764/try-catch-in-python-how-to-properly-ignore-exceptions
+
+
+Carbondates:
+http://ws-dl.blogspot.com/2013/04/2013-04-19-carbon-dating-web.html
+
+run five capies of Carbon; they are running parallel to calculate estimated established date for each link; so 200 link are feed for each copy.
+
+
+
