@@ -1,0 +1,200 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{%frame=tb,
+  language=Bash,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=3
+}
+
+
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage[margin=3cm]{geometry}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+% Edit these as appropriate
+\newcommand\course{CS595}
+\newcommand\semester{FAll 2013}     
+\newcommand\hwnum{3}
+\newcommand\yourname{Mohamed Aturban}
+\newcommand\login{maturban}
+
+\newenvironment{answer}[1]{
+  \subsubsection*{Problem #1}
+}
+
+\pagestyle{fancyplain}
+\headheight 40pt
+\lhead{\yourname\ (\login)\\\course\ --- \semester}
+\chead{\textbf{\Large Assignment \hwnum}}
+\rhead{\today}
+\headsep 40pt
+
+\begin{document}
+
+All files mentioned in this document should be uploaded into the {\it github} repository.
+
+\begin{answer}{1}
+A shell script, called {\it ranking.sh}, is created by a Python program -- {\it ranking.py}. This script contains commands that will achieve the following tasks:
+\begin{itemize}
+\item Downloading the 1000 URIs from the previous assignment using curl. See examples below:
+\begin{lstlisting}
+	$curl www.cnn.com > file1.html
+	$curl www.yahoo.com > file2.html
+	$curl www.alarabiya.com > file3.html
+	...
+	
+\end{lstlisting}
+
+The output files will have their names with sequential numbers (e.g. {\it file1.html}, {\it file2.html}, ...,{\it file1000.html}). A number in a file name indicates a specific URL. In other words, {\it file1.html} contains the raw {\it html} format of the first URI listed in the file {\it links.txt} while {\it file2.html} is the raw {\it html} format corresponding to the second URI in {\it links.txt} and so on.
+
+\item Remove (most) of the HTML markup from {\it .html} files and store results in files called: {\it file1.html.processed}, {\it file2.html.processed}, ..., {\it file1000.html.processed}. This can be done by the {\it lynx} command:
+
+\begin{lstlisting}
+	$lynx -dump -force_html file1.html > file1.html.processed
+	$lynx -dump -force_html file2.html > file2.html.processed
+	$lynx -dump -force_html file3.html > file3.html.processed
+	...
+
+\end{lstlisting}
+\end{itemize}
+
+%\begin{figure}[ht!]
+%\centering
+%\includegraphics[scale=0.75]{links11}
+%\caption{Output URIs}
+%\label{overflow}
+%\end{figure}
+\end{answer}
+
+
+\begin{answer}{2}
+
+To count number of words, another two commands are added to the shell script {\it ranking.sh}:
+
+\begin{itemize}
+\item By {\it wc} command, a list of numbers of all words of all {\it .processed} files can be obtained. This list will be stored in a file called {\it wordsFreq.txt}. See the following examples:
+\begin{lstlisting}
+	$wc -w < file1.html.processed >> wordsFreq.txt
+	$wc -w < file2.html.processed >> wordsFreq.txt
+	$wc -w < file3.html.processed >> wordsFreq.txt
+	...
+\end{lstlisting}
+The output of {\it wordsFreq.txt}:
+\begin{lstlisting}
+	1127
+	2259
+	1322
+	...
+\end{lstlisting}
+
+\item By both {\it grep} and {\it wc} commands, we can get a list of numbers of occurrences of a term in all {\it .processes} files. In this assignment, I have chosen the term {\bf Shakira}. The output will be stored in a file called {\it termFreq.txt}:
+
+\begin{lstlisting}
+	$grep -rohiw Shakira file1.html.processed | wc -w >> termFreq.txt
+	$grep -rohiw Shakira file2.html.processed | wc -w >> termFreq.txt
+	$grep -rohiw Shakira file3.html.processed | wc -w >> termFreq.txt
+	...
+
+\end{lstlisting}
+The output of {\it termFreq.txt}:
+\begin{lstlisting}
+	0
+	0
+	0
+	.
+	.
+	.
+	7
+	3
+	...
+\end{lstlisting}
+
+\end{itemize}
+
+
+Because we are to choose only 10 documents containing the term, I have done all calculations shown in the below table manually.
+
+-	Number of Documents = 1000
+
+-	Number of Documents with the term Shakira = 28
+
+\begin{center}
+    \begin{tabular}{ |  p{1.2cm} |  p{1.2cm} | l | p{2.4cm} | l | p{8cm} |}
+    \hline
+    Words in Doc & Term Freq  & TF & IDF(Shakira) & TFIDF & URI \\ \hline
+
+    944 & 1 & 0.001 & 5.158 & 0.005 &  \url{http://www.youtube.com/watch?v=VBmMU_iwe6U} \\ \hline
+    814 & 4 & 0.005 & 5.158 & 0.025 & \url{http://itonjemusic.blogg.no/1379980431_new_music__shakira_pi.html} \\ \hline
+    941 & 6 & 0.006 & 5.158 & 0.033 & \url{http://www.primerahora.com/entretenimiento/farandula/nota/shakiraencestadecerca-956436/} \\ \hline    
+     428 & 3 & 0.007 & 5.158 & 0.036 & \url{http://www.elecuatoriano.com/musica/sh/dont.html} \\ \hline   
+    945 & 7 & 0.007 & 5.158 & 0.038 & \url{http://www.youtube.com/watch?v=dzsuE5ugxf4&feature=youtu.be} \\ \hline
+    7096 & 131 & 0.018 & 5.158 & 0.095 & \url{http://www.nudecelebrity-blog.com/shakira-nude/} \\ \hline 
+    488 & 10 & 0.020 & 5.158 & 0.106 & \url{http://estesiok.mx/prima-de-shakira-participara-en-novela-de-televisa/} \\ \hline
+    316 & 29 & 0.092 & 5.158 & 0.473 & \url{http://funcitypictures.tumblr.com/post/62167164691/shakira#_=_} \\ \hline
+    187 & 22 & 0.118 & 5.158 & 0.607 & \url{http://shakira-mega.net/home/?p=14779&utm_source=twitterfeed&utm_medium=twitter} \\ \hline        
+    316 & 42 & 0.133 & 5.158 & 0.686 & \url{http://shakira-pictures.tumblr.com/post/62168969227/funcitypictures-shakira#_=_} \\ \hline
+    
+
+    
+
+    
+
+here I should wriet the other tabele after mprmilized 
+comopare
+Q4 from youturn      
+
+    
+
+    \end{tabular}
+\end{center}
+
+	
+
+
+
+
+\end{answer}
+
+\begin{answer}{3}
+
+Carbon Date tool is installed and used to estimate the age of the 1000 URIs. Also, Curl within Python code is used to connect the Carbon Date server, and because it takes time, several minutes, for the server to respond and send back results, five copies of this tool are run in parallel. This will help to finish estimating the 1000 URIs age more fast. The following plot shows how the number of mementos is effected by the age of the URIs. Only URIs that have mementos are included in this chart. Two URIs with age (0 days) are included in the plot also. I did not remove them because (0 days) indicates that the age of these URIs is less than 24 hours.
+
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.75]{URI}
+\caption{URIs age (in Daysss) vs Mementos}
+\label{overflow}
+\end{figure}
+
+
+The plot shows that the young URIs get less chance of having more mementos! Finally, I would like to indicate that R language is used for plotting. I am still new in this environment. Next, I will try to understand how to use good scale to represent data more clear in plots. 
+
+"getURIAge.py" contains Python code for solving problem 3. "age.txt" is the output file.
+
+\end{answer}
+
+\end{document}
