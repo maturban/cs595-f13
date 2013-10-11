@@ -1,0 +1,11 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://tv.mtvema.com/artists/katy-perry/i38xh1/
+http://tv.mtvema.com/gsp/international/mtvema/2013/fankits/Katy-Perry.zip
+http://www.mtv.tv/
+http://www.mtv.tv/info/Footer-Site-Terms-and-Conditions
+http://www.socialproject.com/UserAgreements/EnUS/PrivacyPolicy.html
+http://www.mtv.tv/info/Footer-Cookie-Policy
+http://tv.mtvema.com/press
+https://www.facebook.com/MTVEMA
+https://twitter.com/mtvema
+http://instagram.com/MTVEMA

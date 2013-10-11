@@ -1,0 +1,37 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://www.nydailynews.com/entertainment/gossip/beyonce-plays-soccer-school-children-rio-de-janeiro-brazil-article-1.1458927
+https://twitter.com/nydailynews
+http://classifieds.nydailynews.com/
+https://homedelivery.nydailynews.com/
+http://www.nydailynews.com/entertainment/gossip/confidential
+http://events.nydailynews.com/search?swhat=&swhen=&swhere=New York,Manhattan,NY&commit=Search&st_select=any&search=true&svt=text&srss
+http://www.nydailynews.com/photos/showbiz
+http://www.nydailynews.com/blogs/entertainment
+http://video.nydailynews.com
+http://www.nydailynews.com/entertainment/gossip
+http://www.nydailynews.com/entertainment/gossip/beyonce-plays-soccer-school-children-rio-de-janeiro-brazil-article-1.1458927?print
+http://www.nydailynews.com/topics/Beyonce+Knowles
+http://www.nydailynews.com/entertainment/gossip/beyonce-grabbed-pulled-stage-crazed-fan-brazil-article-1.1457148
+http://www.nydailynews.com/life-style/cutest-kids-hollywood-gallery-1.53200
+http://www.nydailynews.com/entertainment/gossip/beyonce-plays-soccer-school-children-rio-de-janeiro-brazil-article-1.1458927?comment=true
+http://sem.smallbusiness.yahoo.com/searchenginemarketing/
+http://www.nydailynews.com/entertainment/gossip/kris-jenner-bruce-jenner-split-prenup-125-million-fortune-stake-article-1.1480751
+http://www.nydailynews.com/entertainment/gossip/kanye-west-finds-bromance-jimmy-kimmel-live-article-1.1481391
+http://www.nydailynews.com/entertainment/gossip/joan-rivers-nasty-condo-president-wins-condo-lawsuit-article-1.1480672
+http://www.nydailynews.com/entertainment/gossip/suzanne-somers-reveals-sex-couple-times-day-husband-alan-hamel-article-1.1480531
+http://www.nydailynews.com/entertainment/gossip/owen-wilson-expecting-baby-married-personal-trainer-report-article-1.1480945
+http://www.nydailynews.com/entertainment/gossip/rihanna-chisel-hammer-tattoo-new-zealand-article-1.1481026
+http://www.nydailynews.com/entertainment/gossip/khloe-kardashian-lamar-odom-time-months-article-1.1480452
+http://www.nydailynews.com/entertainment/gossip/miley-sex-40-quality-article-1.1481334
+http://www.nydailynews.com/entertainment/gossip/lea-michele-opens-cory-monteith-glee-tribute-interview-article-1.1480636
+http://www.nydailynews.com/entertainment/gossip/kathie-lee-gifford-shoots-report-frank-gifford-romanced-johnny-carson-wife-article-1.1479546
+http://www.nydailynews.com/entertainment/gossip/confidential/katy-perry-fire-peta-article-1.1481085
+http://www.nydailynews.com/entertainment/gossip/kris-bruce-jenner-separate-report-article-1.1479922
+http://www.nydailynews.com/entertainment/gossip/bruce-jenner-sons-happy-kris-jenner-separation-report-article-1.1481516
+http://www.nydailynews.com/entertainment/gossip/craig-robinson-detained-bahamas-drug-bust-article-1.1481523
+http://www.nydailynews.com/entertainment/gossip/woods-don-expect-work-anti-obama-criticism-article-1.1481509
+http://www.nydailynews.com/entertainment/gossip/bruce-jenner-films-reality-show-kris-jenner-separation-announcement-article-1.1480414
+http://autos.nydailynews.com
+https://homedelivery.nydailynews.com
+http://local.nydailynews.com/
+http://nydailynews.adperfect.com

@@ -1,0 +1,5 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://bundles.bittorrent.com
+http://www.bittorrent.com/bittorrent-android/?utm_source=BitTorrent_Bundles&utm_medium=Alert&utm_campaign=moby_102013
+http://www.youtube.com/embed/H3tEg5kysbE
+http://www.bittorrent.com/legal/privacy

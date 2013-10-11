@@ -1,0 +1,21 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://www.turntablekitchen.com/2013/09/typhoons-tour-pairings-chicago-illinois/
+http://www.twitter.com/TTableKitchen/
+http://www.facebook.com/TurntableKitchen
+http://instagram.com/turntablekitchen
+http://pinterest.com/ttablekitchen/
+https://plus.google.com/110445876217089161797/posts
+http://feeds.feedburner.com/turntablekitchen
+http://shuffler.fm/channels/site_url%253Ahttp%253A%252F%252Fwww%252Eturntablekitchen%252Ecom
+http://www.turntablekitchen.com/press/
+http://turntablekitchen.bigcartel.com/products
+http://www.turntablekitchen.com/_uploads/Taqueria-Devin.jpg
+http://rollcallrecords.com/
+http://www.wearetyphoon.com/
+http://www.turntablekitchen.com/2013/09/typhoons-tour-pairings-denver-colorado/
+http://www.turntablekitchen.com/2013/09/typhoons-tour-pairings-vancouver-british-columbia/
+http://www.turntablekitchen.com/2013/09/typhoons-tour-pairings-st-louis-missouri/
+http://www.turntablekitchen.com/_uploads/Devin-Taco-2.jpg
+http://www.turntablekitchen.com/pairings-box/
+http://www.saveur.com/article/Kitchen/Sites-We-Love-Turntable-Kitchen
+http://www.saymedia.com/company-and-campaign-information/

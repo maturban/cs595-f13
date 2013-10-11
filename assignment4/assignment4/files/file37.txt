@@ -1,0 +1,7 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://www.kumbuya.com/content/one-of-my-favourite/?utm_content=buffer4219f&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer
+http://blog.kumbuya.com
+http://www.leonardodicapriotribe.com/greatgatsby!
+http://blog.kumbuya.com/
+http://www.facebook.com/Kumbuya
+http://twitter.com/ohkumbuya

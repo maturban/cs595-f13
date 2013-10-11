@@ -1,0 +1,17 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://www.aljazeera.com/sport/football/2013/09/2013924202844822627.html
+http://blogs.aljazeera.com
+http://america.aljazeera.com
+http://www.aljazeera.net
+http://stream.aljazeera.com
+http://english.aljazeera.net/programmes
+http://www.addthis.com/bookmark.php
+http://www.aljazeera.com/aboutus/2011/01/201111681520872288.html
+http://www.aljazeera.com/aboutus/2011/01/20111168582648190.html
+http://disqus.com/?ref_noscript
+http://twitter.com/ajenglish
+http://blogs.aljazeera.com/
+http://partners.aljazeera.net/services/hotelfinder.aspx
+http://studies.aljazeera.net/en
+http://balkans.aljazeera.com
+http://transparency.aljazeera.net/

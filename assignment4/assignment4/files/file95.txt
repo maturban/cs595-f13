@@ -1,0 +1,9 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://kidschoiceawardsargentina.mundonick.com/votacion/index.php
+http://www.mundonick.com/
+https://twitter.com/share
+http://nickblog.mundonick.com/
+https://twitter.com/search?q=351834173855637505
+http://www.mundonick.com/sitewide/headerfooter/privacy_sp.jhtml
+http://www.mundonick.com/sitewide/headerfooter/terminos_sp.jhtml
+http://www.mundonick.com/sitewide/headerfooter/autor_sp.jhtml

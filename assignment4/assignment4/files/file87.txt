@@ -1,0 +1,21 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://dailyxtra.com/canada/arts-and-entertainment/film-and-video/madonnas-secretprojectrevolution-sparks-doesnt-ignite?market=207
+http://facebook.com/dailyxtra
+http://twitter.com/dailyxtra
+http://www.youtube.com/user/xtraonline
+http://www.dailyxtratravel.com/united-states/california/san-francisco?market=207
+http://www.dailyxtratravel.com/united-states/new-york/new-york?market=207
+http://www.dailyxtratravel.com/germany/berlin/berlin?market=207
+http://www.dailyxtratravel.com/canada/quebec/montreal?market=207
+http://www.dailyxtratravel.com/japan/kanto/tokyo?market=207
+http://www.dailyxtratravel.com/gay-travel-destinations?market=207
+http://dailyxtra.com/canada/arts-and-entertainment/film-and-video/madonnas-secretprojectrevolution-sparks-doesnt-ignite?market=207#comments
+http://dailyxtra.com/print/70359?market=207
+http://www.youtube.com/watch?v=uXfXrl4K2D4#t=52
+http://www.youtube.com/watch?v=yzG_3UJ-LvU
+http://www.forbes.com/sites/dorothypomerantz/2013/08/26/madonna-tops-2013-list-of-top-earning-celebrities/
+https://www.facebook.com/dailyxtra
+https://twitter.com/dailyxtra
+http://pinktrianglepress.com
+http://www.indexdirectory.ca/
+http://www.squirt.org

@@ -1,0 +1,9 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+https://foursquare.com/_guytano/checkin/52420b73498e8edd73157e18?s=v9Y8bCMv8qdZ9SIcGywHZNaKchs&ref=tw
+https://foursquare.com/v/piazza-venezia/4adcdac6f964a520465321e3
+https://foursquare.com/_guytano
+https://foursquare.com/download/#/iphone
+http://blog.foursquare.com
+http://business.foursquare.com
+http://developer.foursquare.com
+http://foursquare.com/help

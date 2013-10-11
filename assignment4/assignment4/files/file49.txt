@@ -1,0 +1,9 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://www.youtube.com/watch?v=VhhBJsJzwGA
+https://accounts.google.com/ServiceLogin?passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3D__FEATURE__%26hl%3Den%26next%3D%252Fwatch%253Fv%253DVhhBJsJzwGA&service=youtube&uilel=3&hl=en
+http://www.youtube.com/cthru?c2b=googlemusic&v=VhhBJsJzwGA&key=qENQc8wkH_9sLatdZeUKQ6zW-mNrtXtfj5WOT45KKkYfCO3f3K9e-jrMCxQWDjOzeEtQMsK4TutrIecKXPBgjeLEsJz9IKoulQluSxgEpR6qdboptWj5q3br9BEteAN7nnGkfgNEABj9KI4kDmAQHCCMCqXD8UQMjEj5cV6WbzLsqeyEr5PiwnaNNJ7BJMvsDJwBSG_hoy7osGbjderT6JDQfOtsma-U5ljtj9IrsIjqTYNtj6AIady4gvXWlWlv0iWDdoWnEptsKTba9p-a9w%3D%3D
+http://www.youtube.com/cthru?c2b=googlemusic&v=VhhBJsJzwGA&key=ez2Hu8rzAfTePb8TW-j6vBkEH0Cd9BA4Za8Rb9jqnVQEW-IH2gLJT2Xp0Fc4U5NtQUbqRWInTnB1UxKT4H2Fr5rc-2Pz-blvAwt9vLePQzAe1t6I0Jvhv1WvXWU1IF1ewkeBEa-zDgOP0R_Jf_GrXgs5N7iKis0Rz5iiSkh2O3cen45P2JiubK0y2v39R7OLkV2gGqUKC-roSk5Y-b5JjFmDMcJAV01KgtFqhABXW0p3GQS-X-ZOVCnmLarWsMS1EXJ5eTYeI2snbaZK73OSoQ%3D%3D
+http://www.youtube.com/cthru?c2b=itunes&v=VhhBJsJzwGA&key=86Z2GVOeXUM3kBwiOEpp07M6TOxmXkCf2D3LqzKvKKsydQEZ8ZvxVD4oGFCFuNPFUtBXDB8Jc6S9fi6RZSDSWRzFlqZiwVl1IludQeTsMvF9iV9f5tQillMxKYGtMD75zJwsNkqttlrl1Yg1ms8ua50ua2kOZx6B
+http://www.youtube.com/cthru?c2b=amazonmp3&v=VhhBJsJzwGA&key=Jg9tO-gBxh8W9ZE3ug6JSDJxurNnGuMoDaA2wdTvbXfq39H_zHNaLB6DoPhs6yOhObWMhflE89Z4Ccv9pIndZKgMwkDRrAIPYFGNHd-Bdv42WTHylRvaOOn39afwSJoL
+http://www.google.com/intl/en/policies/privacy/
+https://accounts.google.com/ServiceLogin?passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3Dplaylist%26hl%3Den%26next%3D%252Fwatch%253Fv%253DVhhBJsJzwGA&service=youtube&uilel=3&hl=en

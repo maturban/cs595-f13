@@ -1,0 +1,21 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://www.globalgiants.com/archives/2011/03/nike_clash_of_t.html
+http://www.globalgiants.com
+http://www.globalgiants.com/Subscribe.html
+http://www.globalgiants.com/About.html
+http://www.globalgiants.com/Contact.html
+http://www.globalgiants.com/archives/2011/03/times_higher_ed.html
+http://www.globalgiants.com/
+http://www.globalgiants.com/archives/2011/03/university_repu.html
+http://www.globalgiants.com/archives/assets_c/2011/03/NikeTennis13-02-L-3706.html
+http://www.globalgiants.com/archives/assets_c/2011/03/NikeTennisMD-05-L-3708.html
+http://twitter.com/share?url=http://www.globalgiants.com/archives/2011/03/nike_clash_of_t.html&text=University of Oregon hosts NIKE Clash of the Champions&via=GlobalGiants
+http://del.icio.us/post?url=http://www.globalgiants.com/archives/2011/03/nike_clash_of_t.html&title=University of Oregon hosts NIKE Clash of the Champions
+http://facebook.com/sharer.php?u=http://www.globalgiants.com/archives/2011/03/nike_clash_of_t.html&t=University of Oregon hosts NIKE Clash of the Champions
+http://furl.net/storeIt.jsp?t=University of Oregon hosts NIKE Clash of the Champions&u=http://www.globalgiants.com/archives/2011/03/nike_clash_of_t.html
+http://myweb2.search.yahoo.com/myresults/bookmarklet?t=University of Oregon hosts NIKE Clash of the Champions&u=http://www.globalgiants.com/archives/2011/03/nike_clash_of_t.html
+http://reddit.com/submit?url=http://www.globalgiants.com/archives/2011/03/nike_clash_of_t.html&title=University of Oregon hosts NIKE Clash of the Champions
+http://stumbleupon.com/submit?url=http://www.globalgiants.com/archives/2011/03/nike_clash_of_t.html&title=University of Oregon hosts NIKE Clash of the Champions&newcomment=University of Oregon hosts NIKE Clash of the Champions
+http://technorati.com/faves?add=http://www.globalgiants.com/archives/2011/03/nike_clash_of_t.html
+http://www.twitter.com/GlobalGiants
+http://www.globalgiants.com/archives/2011/03/nike_clash_of_t.html

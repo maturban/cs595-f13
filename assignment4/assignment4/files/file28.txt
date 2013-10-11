@@ -1,0 +1,16 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://www.dellwaytravel.com
+http://myworld.ebay.com/dellwaytravel
+http://mrscartershow.eventbrite.com
+http://www.urbanislandcruise.com/
+http://www.urbanislandcruise.com
+http://www.eventbrite.com/r/ecount
+http://riubambudr.eventbrite.com?ref=ecount
+http://www.eventbrite.com?ref=ecount
+https://librascale.eventbrite.com/
+http://wtt-eorg.eventbrite.com/
+http://www.facebook.com/DellWayTravel
+http://twitter.com/#!/DELLWAYTRAVEL
+http://youtube.com/dellwaytravel
+http://instagram.com/dellwaytravel
+http://www.godaddy.com/hosting/website-builder.aspx?isc=wscfwst304

@@ -1,0 +1,25 @@
+# The first link is the main page in which other URIs ,starting from second link , are extracted.
+http://www.dailymail.co.uk/sport/football/article-2430729/Ronaldo-meets-Gareth-Bale-Bale-Real-Madrid-winger-fights-recover-face-Atletico-Madrid.html
+http://www.dailymail.co.uk/fantasyfootball
+http://www.jobsite.com
+http://pubads.g.doubleclick.net/gampad/clk?id=52127912&iu=/5765/dailymail.uk
+https://twitter.com/MailOnlineSport
+http://affiliate.coral.co.uk/processing/clickthrgh.asp?btag=a_10968b_5481
+https://lucky7.coral.co.uk/football/dailymail/
+http://fantasyfootball.dailymail.co.uk/
+http://affiliate.coral.co.uk/processing/clickthrgh.asp?btag=a_11196b_5426
+http://itunes.apple.com/app/mailonline/id400442503?mt=8&ign-mpt=uo%3D4
+http://mailpictures.newsprints.co.uk
+http://www.dailymail.co.uk
+http://www.mailonsunday.co.uk
+http://www.thisisgloucestershire.co.uk/towns.html
+http://www.thisislondon.co.uk
+http://www.thisismoney.co.uk
+http://www.metro.co.uk
+http://www.jobsite.co.uk
+http://www.mailtravel.co.uk
+http://www.zoopla.co.uk
+http://www.primelocation.com
+http://www.villarenters.com/
+http://www.and.co.uk/
+http://creative.dailymail.co.uk/us-advertising-opportunities/index.html 
