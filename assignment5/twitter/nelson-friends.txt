@@ -1,0 +1,80 @@
+Searching Twitter for following counts of phonedude_mln's following: 
+Friends_count   Friends-screen-name  Friends-name             
+----------------------------------------------------------------------------------------
+77              PT_WebArchive        PortugueseWebArchive     
+68              Galsondor            Scott Ainsworth          
+64              weiglemc             Michele Weigle           
+379             neo4j                Neo4j                    
+1203            CommonCrawl          CommonCrawl              
+243             aalsum               Ahmed AlSum              
+107             hanysalaheldeen      Hany SalahEldeen         
+72              justinfbrunelle      Justin F Brunelle        
+366             twarko               Marko A. Rodriguez       
+240             yasmina_anwar        Yasmina Anwar            
+16              WebSciDL             WS-DL Group, ODU CS      
+300             SciTechProf          Christine Borgman        
+2               ijdl                 IJDL                     
+275             dpla                 DPLA                     
+70              peplluis7            Peplluis de la Rosa      
+673             dchud                Dan Chudnov              
+57              machawk1             Mat Kelly                
+985             lljohnston           Leslie Johnston          
+413             edsu                 Ed Summers               
+290             archiveis            archive.is               
+372             masinter             Larry Masinter           
+161             mgallinger           Michelle Gallinger       
+133             squealermusic        squealermusic            
+3349            smalljones           Paul Jones               
+139             ChrisHorneSW         Chris Horne              
+98              fielding             Roy T. Fielding          
+365             OpenRepository       Open Repository          
+423             anjacks0n            Andy Jackson             
+271             jteevan              Jaime Teevan             
+289             nullhandle           Nicholas Taylor          
+123             netpreserve          IIPC                     
+245             iPRES2013            iPRES 2013               
+198             opba                 Abigail Potter           
+859             blefurgy             Bill LeFurgy             
+178             tpdl2013             tpdl2013                 
+85              neiltyson            Neil deGrasse Tyson      
+97              fmccown              Frank McCown             
+672             jcdl2013             JCDL2013                 
+99              CaroleAnneGoble      Carole Goble             
+35              joansm1th            Joan Smith               
+0               TPDL2012             TPDL2012                 
+32              WillStewartTSL       Will Stewart             
+850             iceskatingbears      Margy Avery              
+11              jcdl2012             jcdl2012                 
+131             w3c                  W3C Team                 
+544             rlfrick              Rachel L Frick           
+8               awptix               Brooks Childers          
+254             archiveitorg         Archive-It               
+296             mart1nkle1n          Martin Klein             
+22              VT_Football          VT Football              
+192             CBSSportsACC         CBSSportsACC             
+176             ladamic              Lada Adamic              
+18              googleresearch       Google Research          
+778             MarthaBunton         Martha Anderson          
+71              jlbollen             johan bollen             
+468             ESPN_ACC             ESPN ACC                 
+40              landeart             Lisa Lande               
+359             cshirky              Clay Shirky              
+28              TechSideline         TechSideline.com         
+70              RaleighHokie         Raleigh Hokie            
+1003            HokiesJournal        Hokies Journal           
+341             HCIR_GeneG           Gene Golovchinsky        
+814             normwood             Norm Wood                
+716             JeniT                Jeni Tennison            
+825             lorcanD              lorcan dempsey           
+201             AndyBitterVT         Andy Bitter              
+0               511hamptonroads      511 Hampton Roads        
+10              marchionini          Gary Marchionini         
+13              lagoze               lagoze                   
+408             ldirks               Lee Dirks                
+32              Julibabe21           Julianne Allen           
+241             ccmarshall           cathy marshall           
+264             azaroth42            Rob Sanderson            
+224             hvdsomp              Herbert                  
+
+Number of phonedude_mln's friends is: 74
+atria:~/webscience/assignment5/twitter> 

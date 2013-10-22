@@ -1,0 +1,157 @@
+atria:~/webscience/assignment5/facebook> python q1_getFacebookFriendsCount.py
+Friends-count   Friend-screen-name  
+----------------------------------------------------
+327             Nabeeh Abdurrahim Hasan
+332             Khaled S. Hatamleh  
+150             Amjad Nusayr        
+93              Fathi M Ben Hamed   
+328             Abdulla Qaddumi     
+140             Riad Ali            
+202             Moad Elgaly         
+219             Bashar Qawasmeh     
+227             Mazen Nairat        
+319             Faiz G Tantoush     
+68              Yaroslav Ulanskyi   
+547             Jay Nair            
+861             Hadi Sharifi        
+193             Ma'en S. Sari       
+568             Mahmoud Abdou       
+3929            Adnan Abdulmoneim Najar
+239             Yousef Jaradat      
+276             Hisham Turban       
+364             Malik Ghazi Ajlouni 
+43              Nasreddin Elzoghbi  
+575             Ahmed Maher         
+64              Azeddeen Swesy      
+109             Cong Wei            
+332             Aditya Reddy        
+92              Ibrahim Daraghmah   
+217             Aous Al Dari        
+200             Hisham Benotman     
+68              Ezzeddin Aljogom    
+34              Fathi Matouq        
+44              Al Ta               
+30              Mohamed Whaeba      
+80              Akram Milad         
+161             Ayman Ghunaim       
+541             Muhammad Mazharul Islam
+142             Robert Parker       
+496             Jaradan Alameer     
+134             Luay Kshidan        
+831             Bob LaDu            
+139             FÃ¤hzÃ¨ AbdurRahmane  
+115             Ali Abdallah        
+186             Abdulwart Gumma Heshek
+393             Waled Az            
+695             Ramakanth Kanagala  
+505             Aimen Ben Ayad      
+270             Mohammed E Abushagor
+40              Abdutawab Ghaja     
+159             Adel Sasi           
+269             Ali Taj Mohammed Nashir
+132             Souhill Ezarug Edongali
+89              Nafis Quraishi      
+164             Hatem Etorban       
+177             Abdulghani Khalfalla
+225             Saquib Mohammed     
+619             Salama Aghila       
+85              Mustafa Elfituri    
+85              Mokthar Benemhemed  
+58              Moustafa Almhmodi   
+137             brans abwkrarh      
+60              Nidal Ali Mabrouk   
+51              Ibrahim Ben Mustafa 
+58              Nidal Mabrouk       
+295             Hytham Sheneshah    
+253             Mohamed Elkmishi    
+26              Ramzi Ganone        
+122             Elmezughi Ayuob     
+174             Juve Ksad Ksad Juve 
+17              mwid mtwkl          
+93              Ali Mohamed         
+283             Ali Turban          
+90              Tarek Al-Zaroug     
+79              Essam Eshtewi       
+239             Basem Alturban      
+108             almzini alabidi     
+95              Ibrahim Anaas       
+135             Msa At Nmsu         
+120             Jalal Torban        
+1037            Ielp Psu            
+184             Ali Juve            
+177             Haythem Zougdani    
+173             Ahmad Badokhon      
+130             Talal Milan         
+139             Ahmed Torboo        
+169             Aiham Elturban      
+162             Najib Erhoma        
+24              Adel Ali            
+160             Faisal Aziz         
+184             Mosab Etorban       
+86              Abo AbduAllah       
+196             Abdel-Moneim Tarban 
+176             alsnfwr snfwr       
+142             Moad Mila           
+93              Essam Awidan        
+6               Dawood Tarek        
+66              Tareq Alhalholy     
+171             Esmail Hassan       
+27              Alsonni Ayad        
+226             Yahya Al-Khatatbeh  
+67              abw thwibah         
+114             Amjod H Cool        
+37              Khaled Azez         
+205             khali albal         
+168             Khaled Aziz         
+123             Turban Abd          
+334             basm wnis           
+37              Ahmed Turban        
+103             alzrwq sbra         
+108             altrms lsfr         
+310             Jamal Torban        
+143             Zaher Ali           
+84              Ans Atrban          
+119             Omar Abdo           
+251             ALmela ALzarok      
+224             shhab altrban       
+160             Salem Steela        
+32              Aat Libya           
+171             Abd AL Ghani Torban 
+128             Flower May          
+113             Ahmed Ali           
+109             Ezzo Hamel          
+147             almila alzrwq       
+132             sliman altrban      
+14              Khalidfbr Farhat    
+94              Ans Ans Abdu        
+48              alqrdawi alqrdawi   
+53              alzaim awa          
+158             Moad Hamal          
+93              Odai Mat            
+21              Ali Mohamed         
+75              Odai Mila           
+69              Yazen Abdo          
+66              momn altrban        
+249             Taha Algezzawy      
+57              momn altrban        
+78              Mod Mil             
+165             Diaa Trban          
+31              Ahmed El Torban     
+141             Mohamad EH          
+31              Torbo Ingction      
+124             Monder Hassn        
+99              Entr Milan          
+32              abd alrowf alaaql   
+103             Ahmed Alsahli       
+135             Nizar Ali           
+45              Qween Tor           
+99              alsadq swisi        
+20              abwbkr alqdar       
+12              khiri mqili         
+45              Aboalkasem Abdallah 
+23              mstfi khlf          
+78              Abdu Ali            
+34              Mohamed Alrotab     
+
+Number of Mohamed Aturban's friends ,who allow to retrieve their friends count, is 151 out of 203
+

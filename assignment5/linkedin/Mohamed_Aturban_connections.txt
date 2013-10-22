@@ -1,0 +1,54 @@
+atria:~/webscience/assignment5/linkedin> python q3_getLinkedinConnectionsCount.py 
+Connections     LinkedIn User Name  
+-----------------------------------------------------
+202             Fahzy Abdul-Rahman  
+260             Iyad Abu doush      
+256             MAZIN ABUHARAZ      
+154             Saeed Al-Haj        
+500             Anas Al-Tirawi      
+144             Abdussalam Alawini  
+25              Khaled Alharibi     
+15              Espoia Ali          
+70              Adel Altorban       
+99              SAMEH AMMAR         
+13              Ayad Ben-Ismail     
+8               Ibrahim BenMustafa  
+46              Hisham Benotman     
+35              Haythem Gaja        
+52              Abdelrahman Ghuwairi
+365             Bob LaDu,DTM        
+500             Bret Macallan       
+111             Akram Manshalin     
+301             Pilar Montejo       
+305             Elmahdi Omar        
+274             Hisham Turban       
+227             Aimen Younis        
+91              Ayad Zein Eddin     
+7               jlal altrban        
+
+Number of Mohamed Aturban's LinkedIn connections is 25(can not retrieve data from 1 connection(s)) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+7, 8, 13, 15, 25, 35, 46, 52, 70, 91, 99, 111, 144 ,154, 202, 227, 256, 260, 274, 301, 305, 365, 500,500
+
+
+
+
+
+
+
+
+
+
+
