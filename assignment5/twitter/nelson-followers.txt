@@ -16,7 +16,7 @@ Followers_count Follower-screen-name Follower-name
 362             iFromm               Ingo Frommholz           
 267             Philipp_Mayr         Philipp Mayr             
 71              violetailik          violeta ilik             
-168             cgknowles            Claire Knowles           
+168             cgknowles            Claire Knowles            
 205             x_twentythree        X23                      
 28              GerhardGossen        Gerhard Gossen           
 702             kvanmalssen          Kara Van Malssen         
