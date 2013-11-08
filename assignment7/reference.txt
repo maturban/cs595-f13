@@ -1,0 +1,24 @@
+
+http://stackoverflow.com/questions/2470248/write-lines-of-text-to-a-file-in-r
+
+http://stackoverflow.com/questions/14614946/how-to-turn-a-vector-into-a-matrix-in-r
+
+http://stackoverflow.com/questions/14392075/cannot-create-an-empty-vector-and-append-new-elements-in-r
+
+helpful d3 video:
+http://www.youtube.com/watch?v=2S1AbEWX85o
+
+thanks to Shawn for sharing things:
+
+read the karate matrix:
+http://www.wstein.org/home/wstein/www/home/mvngu/apps/igraph/interfaces/R/igraphdata/inst/getdata.R
+
+great link for converting to json, it has a ready function:
+http://stackoverflow.com/questions/8288925/strategies-for-formatting-json-output-from-r
+
+
+graph:
+http://bl.ocks.org/mbostock/4062045#miserables.json
+
+http://bl.ocks.org/mbostock/3750558
+https://github.com/mbostock/d3/wiki/Force-Layout
