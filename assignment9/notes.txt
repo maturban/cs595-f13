@@ -1,0 +1,1171 @@
+references:
+******************************
+the online book ::: 
+******************************
+to download feedlist.txt and generatefeedvector.py
+https://github.com/nico/collectiveintelligence-book
+*************************************
+after that I only modified
+out.write(blogname)
+to:
+out.write(blogname.encode('ascii', 'ignore'))
+to avoid:
+Traceback (most recent call last):
+  File "generatefeedvector2.py", line 62, in <module>
+    main()
+  File "generatefeedvector2.py", line 55, in main
+    out.write(blogname)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xbb' in position 8:
+ordinal not in range(128)
+***********************************************
+I have checked whether the rss feed is still working or not through:
+http://validator.w3.org/feed/
+http://validator.w3.org/#validate_by_uri
+
+I have found several of them are not working:
+
+http://feeds.feedburner.com/37signals/beMH
+http://featured.gigaom.com/feed/
+http://gofugyourself.typepad.com/go_fug_yourself/index.rdf
+http://headrush.typepad.com/creating_passionate_users/index.rdf
+http://journals.aol.com/thecoolerblog/AOLNewsCooler/rss.xml
+http://feeds.feedburner.com/paulstamatiou
+http://powerlineblog.com/index.rdf
+http://thinkprogress.org/feed/
+http://www.bloglines.com/rss/about/news
+http://www.coolhunting.com/index.rdf
+http://feeds.dailykos.com/dailykos/index.xml
+http://www.downloadsquad.com/rss.xml
+http://www.huffingtonpost.com/raw_feed_index.rdf
+http://www.joelonsoftware.com/rss.xml
+http://feeds.kottke.org/main
+http://www.oilman.ca/feed/
+http://www.powazek.com/rss.xml
+http://www.readwriteweb.com/rss.xml
+http://scienceblogs.com/sample/combined.xml
+http://www.sifry.com/alerts/index.rdf
+http://feeds.feedburner.com/Spikedhumor
+http://www.talkingpointsmemo.com/index.xml
+http://www.techeblog.com/index.php/feed/
+http://www.thesuperficial.com/index.xml
+http://www.tmz.com/rss.xml
+http://www.treehugger.com/index.rdf
+http://www.we-make-money-not-art.com/index.rdf
+http://www.wonkette.com/index.xml
+
+*****************************************
+
+to add new blogs urls:
+- i googled for
+"most popular blogs -sports -for womwn - political"
+- I open the blog url, then view the source code and search for "rss"
+and copy the link to the above validator; I f it's ok; I check if it is already in my rss list; if not; it is finally added.
+*******************************************
+First, I got matrix with only 89 rows even though I have a list of rss uls of 100; the reson 
+behind that is because some of the blogs have same title.
+
+Also, to get a metrix with exaxtly 100 rows, I have to add the following code to find deplacate blog titles, and replace them with new blogs:
+		if title in wordcounts.keys():
+			print "Title already exists ["
+		else:
+			print 'New title['+title.encode('ascii', 'ignore')+']    URL['+url.encode('ascii', 'ignore').rstrip()+']'
+			wordcounts[title] = wc
+			for word, count in wc.iteritems():
+				if count > 1:
+					apcount[word] += 1
+					
+example of duplicate titles:
+New title[bogus data]    URL[http://blogs.abcnews.com/theblotter/index.rdf]
+Title already exists [bogus data]    URL[http://www.makezine.com/blog/index.xml]
+Title already exists [bogus data]    URL[http://www.micropersuasion.com/index.rdf]
+Title already exists [bogus data]    URL[http://www.valleywag.com/index.xml]
+					
+***********************************
+first, pearson fi=unction introduced in our textbook should return a value between 1 and -1; when testing the function from p.35 ,from out textbook, it never returned a value which is less than zero. 
+I have corrected the function "pearson" as suggested in [?] : http://www.oreilly.com/catalog/errataunconfirmed.csp?isbn=9780596529321
+there were three places where function "float" should be used to avoid interger roundoff w=errors. Also the return value should be  "num/den", not "1.0-num/den"
+***********************************
+
+the problem was with the function pearson(); when it is return ... > 1-... ; then everything is correct; and when corrected by removing 1- then the jpg is not correct;
+
+***********************************
+
+Question 3:
+c:\Users\Mohamed\Desktop\assignment9>python cluster.py
+ k = 5
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+Iteration 51
+Iteration 52
+Iteration 53
+Iteration 54
+Iteration 55
+Iteration 56
+Iteration 57
+Iteration 58
+Iteration 59
+Iteration 60
+Iteration 61
+Iteration 62
+Iteration 63
+Iteration 64
+Iteration 65
+Iteration 66
+Iteration 67
+Iteration 68
+Iteration 69
+Iteration 70
+Iteration 71
+Iteration 72
+Iteration 73
+Iteration 74
+Iteration 75
+Iteration 76
+Iteration 77
+Iteration 78
+Iteration 79
+Iteration 80
+Iteration 81
+Iteration 82
+Iteration 83
+Iteration 84
+Iteration 85
+Iteration 86
+Iteration 87
+Iteration 88
+Iteration 89
+Iteration 90
+Iteration 91
+Iteration 92
+Iteration 93
+Iteration 94
+Iteration 95
+Iteration 96
+Iteration 97
+Iteration 98
+Iteration 99
+-------------------------------
+['Publishing 2.0', 'Eschaton', 'Word Nerd Speaks', 'Joho the Blog', 'Marginal Re
+volution', "Neil Gaiman's Journal", 'The Succulent Wife', 'Web Science and Digit
+al Libraries Research Group', 'Droid Life', 'Online Marketing Report', 'Business
+ Insider', '@ProBlogger', 'How to Change the World', '43 Folders', 'The Dish', "
+O'Reilly Radar", 'TUAW - The Unofficial Apple Weblog', 'CONFESSIONS OF A FAT GIR
+L', 'Google Operating System', 'Mashable', 'over50feeling40', 'Lifehacker', 'Blo
+ggers Blog', 'SimpleBits', 'ShoeMoney', 'Slashdot', 'BuzzMachine', 'ongoing by T
+im Bray', 'bogus data', 'The Viral Garden', 'flagrantdisregard', 'Scobleizer', '
+Joystiq', 'ProFootballTalk  Rumor Mill', 'Ignite Social Media', 'blog maverick',
+ 'Little Green Footballs', 'Boing Boing', 'Copyblogger', "John Battelle's Search
+ Blog", 'Engadget RSS Feed', 'Huffington Post', 'Techdirt.', 'Jezebel', "Kalyn's
+ Kitchen", '456 Berea Street', 'Pharyngula', 'TechCrunch', "Steve Pavlina's Pers
+onal Development Blog", 'The V Spot', 'Topix Blog', 'The Mouthy Housewives', 'Me
+taFilter', 'Truthdig: Drilling Beneath the Headlines', "Seth Godin's Blog on mar
+keting, tribes and respect", 'Ubergizmo', 'A Consuming Experience (full feed)',
+'mezzoblue', 'Matt Cutts: Gadgets, Google, and SEO', 'NewsBusters - Exposing Lib
+eral Media Bias', 'Wired Top Stories', 'The Official Google Blog', 'WIL WHEATON
+dot NET', 'Quick Online Tips', "Jeremy Zawodny's blog", 'Neatorama', 'Autoblog',
+ 'Google Blogoscoped', 'plasticbag.org', 'Gawker', "Margie's Moments of Tiyoweh"
+]
+-------------------------------
+['The Huffington Post Full Blog Feed', 'Legal Insurrection', 'ArtsBeat', 'Kotaku
+', 'Via Meadia', 'Deadspin', 'Gizmodo', 'Michelle Malkin', 'Gothamist', 'Instapu
+ndit', "Captain's Quarters", 'The Huffington Post | Full News Feed', 'Schneier o
+n Security', 'Paul Krugman', "Joi Ito's Web", 'Althouse', 'Lifehack', 'Gossip Co
+p', 'PerezHilton', 'Crooks and Liars', 'F-Measure', 'Hot Air  Top Picks', 'gapin
+gvoid: "cartoons drawn on the back of business cards"', 'The GypsyNester']
+-------------------------------
+['The Huffington Post | Wire Services Feed']
+-------------------------------
+['Uncrate', 'The Art of Manliness']
+-------------------------------
+['Search Engine Watch - Latest', 'Search Engine Roundtable']
+
+c:\Users\Mohamed\Desktop\assignment9>
+
+##########################################################################
+
+ k = 10
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+Iteration 51
+Iteration 52
+Iteration 53
+Iteration 54
+Iteration 55
+Iteration 56
+Iteration 57
+Iteration 58
+Iteration 59
+Iteration 60
+Iteration 61
+Iteration 62
+Iteration 63
+Iteration 64
+Iteration 65
+Iteration 66
+Iteration 67
+Iteration 68
+Iteration 69
+Iteration 70
+Iteration 71
+Iteration 72
+Iteration 73
+Iteration 74
+Iteration 75
+Iteration 76
+Iteration 77
+Iteration 78
+Iteration 79
+Iteration 80
+Iteration 81
+Iteration 82
+Iteration 83
+Iteration 84
+Iteration 85
+Iteration 86
+Iteration 87
+Iteration 88
+Iteration 89
+Iteration 90
+Iteration 91
+Iteration 92
+Iteration 93
+Iteration 94
+Iteration 95
+Iteration 96
+Iteration 97
+Iteration 98
+Iteration 99
+-------------------------------
+['Publishing 2.0', 'Legal Insurrection', 'Online Marketing Report', 'Kotaku', '@
+ProBlogger', 'Google Operating System', 'Gizmodo', 'Gothamist', 'bogus data', 'b
+log maverick', 'Little Green Footballs', 'Boing Boing', 'Schneier on Security',
+'Topix Blog', 'Truthdig: Drilling Beneath the Headlines', 'Lifehack', "Seth Godi
+n's Blog on marketing, tribes and respect", 'PerezHilton', 'Matt Cutts: Gadgets,
+ Google, and SEO', 'F-Measure', 'Hot Air  Top Picks', 'gapingvoid: "cartoons dra
+wn on the back of business cards"']
+-------------------------------
+['Eschaton', 'Word Nerd Speaks', 'The Huffington Post Full Blog Feed', 'Joho the
+ Blog', 'Marginal Revolution', "Neil Gaiman's Journal", 'The Succulent Wife', 'W
+eb Science and Digital Libraries Research Group', 'Droid Life', 'Business Inside
+r', '43 Folders', 'Deadspin', 'The Dish', "O'Reilly Radar", 'TUAW - The Unoffici
+al Apple Weblog', 'CONFESSIONS OF A FAT GIRL', 'Mashable', 'over50feeling40', 'L
+ifehacker', 'SimpleBits', 'ShoeMoney', 'Slashdot', 'BuzzMachine', 'ongoing by Ti
+m Bray', 'The Viral Garden', 'Scobleizer', 'Joystiq', 'ProFootballTalk  Rumor Mi
+ll', 'Ignite Social Media', 'Copyblogger', "John Battelle's Search Blog", 'Engad
+get RSS Feed', 'Huffington Post', 'Techdirt.', 'Jezebel', "Kalyn's Kitchen", '45
+6 Berea Street', 'Pharyngula', 'TechCrunch', "Steve Pavlina's Personal Developme
+nt Blog", 'The V Spot', 'Althouse', 'The Mouthy Housewives', 'MetaFilter', 'Uber
+gizmo', 'A Consuming Experience (full feed)', 'mezzoblue', 'Wired Top Stories',
+'The Official Google Blog', 'WIL WHEATON dot NET', 'Quick Online Tips', "Jeremy
+Zawodny's blog", 'Neatorama', 'Autoblog', 'Google Blogoscoped', 'plasticbag.org'
+, 'Gawker', 'The GypsyNester']
+-------------------------------
+['Search Engine Watch - Latest', 'Search Engine Roundtable']
+-------------------------------
+[]
+-------------------------------
+[]
+-------------------------------
+['Uncrate', 'The Art of Manliness']
+-------------------------------
+['The Huffington Post | Wire Services Feed']
+-------------------------------
+['ArtsBeat', 'Via Meadia', 'Michelle Malkin', 'Instapundit', "Captain's Quarters
+", 'The Huffington Post | Full News Feed', 'Paul Krugman', "Joi Ito's Web", 'Gos
+sip Cop', 'NewsBusters - Exposing Liberal Media Bias', 'Crooks and Liars', "Marg
+ie's Moments of Tiyoweh"]
+-------------------------------
+[]
+-------------------------------
+['How to Change the World', 'Bloggers Blog', 'flagrantdisregard']
+
+
+##########################################################################
+
+ k = 20
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+Iteration 51
+Iteration 52
+Iteration 53
+Iteration 54
+Iteration 55
+Iteration 56
+Iteration 57
+Iteration 58
+Iteration 59
+Iteration 60
+Iteration 61
+Iteration 62
+Iteration 63
+Iteration 64
+Iteration 65
+Iteration 66
+Iteration 67
+Iteration 68
+Iteration 69
+Iteration 70
+Iteration 71
+Iteration 72
+Iteration 73
+Iteration 74
+Iteration 75
+Iteration 76
+Iteration 77
+Iteration 78
+Iteration 79
+Iteration 80
+Iteration 81
+Iteration 82
+Iteration 83
+Iteration 84
+Iteration 85
+Iteration 86
+Iteration 87
+Iteration 88
+Iteration 89
+Iteration 90
+Iteration 91
+Iteration 92
+Iteration 93
+Iteration 94
+Iteration 95
+Iteration 96
+Iteration 97
+Iteration 98
+Iteration 99
+-------------------------------
+['bogus data']
+-------------------------------
+[]
+-------------------------------
+['Gizmodo', 'F-Measure']
+-------------------------------
+[]
+-------------------------------
+[]
+-------------------------------
+['Search Engine Roundtable']
+-------------------------------
+[]
+-------------------------------
+['Eschaton', 'Word Nerd Speaks', 'The Huffington Post Full Blog Feed', 'Joho the
+ Blog', 'Marginal Revolution', "Neil Gaiman's Journal", 'The Succulent Wife', 'W
+eb Science and Digital Libraries Research Group', 'Droid Life', 'How to Change t
+he World', '43 Folders', 'Deadspin', 'The Dish', "O'Reilly Radar", 'TUAW - The U
+nofficial Apple Weblog', 'CONFESSIONS OF A FAT GIRL', 'over50feeling40', 'Lifeha
+cker', 'SimpleBits', 'ShoeMoney', 'Slashdot', 'BuzzMachine', 'ongoing by Tim Bra
+y', 'The Viral Garden', 'flagrantdisregard', 'Scobleizer', 'Joystiq', 'ProFootba
+llTalk  Rumor Mill', 'Ignite Social Media', 'The Art of Manliness', 'Copyblogger
+', "John Battelle's Search Blog", 'Engadget RSS Feed', 'Techdirt.', "Kalyn's Kit
+chen", '456 Berea Street', 'Pharyngula', 'TechCrunch', "Steve Pavlina's Personal
+ Development Blog", 'The V Spot', 'The Mouthy Housewives', 'MetaFilter', 'Ubergi
+zmo', 'A Consuming Experience (full feed)', 'Wired Top Stories', 'The Official G
+oogle Blog', 'WIL WHEATON dot NET', 'Quick Online Tips', "Jeremy Zawodny's blog"
+, 'Autoblog', 'Google Blogoscoped', 'plasticbag.org', 'Gawker', 'The GypsyNester
+', "Margie's Moments of Tiyoweh"]
+-------------------------------
+['The Huffington Post | Wire Services Feed']
+-------------------------------
+[]
+-------------------------------
+['Uncrate']
+-------------------------------
+[]
+-------------------------------
+[]
+-------------------------------
+['ArtsBeat', 'Business Insider', 'Search Engine Watch - Latest', 'Via Meadia', '
+Mashable', "Captain's Quarters", 'The Huffington Post | Full News Feed', 'Huffin
+gton Post', "Joi Ito's Web", 'Jezebel', 'Topix Blog', 'Althouse', 'Lifehack', 'G
+ossip Cop', 'mezzoblue', 'NewsBusters - Exposing Liberal Media Bias', 'Neatorama
+']
+-------------------------------
+[]
+-------------------------------
+[]
+-------------------------------
+['Paul Krugman']
+-------------------------------
+[]
+-------------------------------
+[]
+-------------------------------
+['Publishing 2.0', 'Legal Insurrection', 'Online Marketing Report', 'Kotaku', '@
+ProBlogger', 'Google Operating System', 'Michelle Malkin', 'Bloggers Blog', 'Got
+hamist', 'Instapundit', 'blog maverick', 'Little Green Footballs', 'Boing Boing'
+, 'Schneier on Security', 'Truthdig: Drilling Beneath the Headlines', "Seth Godi
+n's Blog on marketing, tribes and respect", 'PerezHilton', 'Matt Cutts: Gadgets,
+ Google, and SEO', 'Crooks and Liars', 'Hot Air  Top Picks', 'gapingvoid: "carto
+ons drawn on the back of business cards"']
+
+c:\Users\Mohamed\Desktop\assignment9>
+##########################################################################
+
+After remover 1 + 
+
+##########################################################################
+
+ k = 5
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+Iteration 51
+Iteration 52
+Iteration 53
+Iteration 54
+Iteration 55
+Iteration 56
+Iteration 57
+Iteration 58
+Iteration 59
+Iteration 60
+Iteration 61
+Iteration 62
+Iteration 63
+Iteration 64
+Iteration 65
+Iteration 66
+Iteration 67
+Iteration 68
+Iteration 69
+Iteration 70
+Iteration 71
+Iteration 72
+Iteration 73
+Iteration 74
+Iteration 75
+Iteration 76
+Iteration 77
+Iteration 78
+Iteration 79
+Iteration 80
+Iteration 81
+Iteration 82
+Iteration 83
+Iteration 84
+Iteration 85
+Iteration 86
+Iteration 87
+Iteration 88
+Iteration 89
+Iteration 90
+Iteration 91
+Iteration 92
+Iteration 93
+Iteration 94
+Iteration 95
+Iteration 96
+Iteration 97
+Iteration 98
+Iteration 99
+-------------------------------
+['Publishing 2.0', 'Uncrate', 'Legal Insurrection', 'ArtsBeat', 'Kotaku', 'How t
+o Change the World', 'Search Engine Watch - Latest', 'The Huffington Post | Wire
+ Services Feed', 'Michelle Malkin', 'Bloggers Blog', 'Gothamist', 'Instapundit',
+ 'bogus data', "Captain's Quarters", 'Boing Boing', 'Search Engine Roundtable',
+'Gossip Cop', 'Quick Online Tips', 'Hot Air  Top Picks', 'gapingvoid: "cartoons
+drawn on the back of business cards"']
+-------------------------------
+['Eschaton', 'Word Nerd Speaks', 'The Huffington Post Full Blog Feed', 'Joho the
+ Blog', 'Marginal Revolution', "Neil Gaiman's Journal", 'The Succulent Wife', 'W
+eb Science and Digital Libraries Research Group', 'Droid Life', 'Online Marketin
+g Report', 'Business Insider', '@ProBlogger', '43 Folders', 'Deadspin', 'The Dis
+h', "O'Reilly Radar", 'TUAW - The Unofficial Apple Weblog', 'CONFESSIONS OF A FA
+T GIRL', 'Google Operating System', 'Mashable', 'over50feeling40', 'Gizmodo', 'L
+ifehacker', 'SimpleBits', 'ShoeMoney', 'Slashdot', 'BuzzMachine', 'ongoing by Ti
+m Bray', 'The Viral Garden', 'flagrantdisregard', 'Scobleizer', 'Joystiq', 'ProF
+ootballTalk  Rumor Mill', 'Ignite Social Media', 'blog maverick', 'The Huffingto
+n Post | Full News Feed', 'Little Green Footballs', 'Schneier on Security', 'Cop
+yblogger', "John Battelle's Search Blog", 'Engadget RSS Feed', 'Huffington Post'
+, 'Paul Krugman', 'Techdirt.', "Joi Ito's Web", 'Jezebel', "Kalyn's Kitchen", '4
+56 Berea Street', 'Pharyngula', 'TechCrunch', "Steve Pavlina's Personal Developm
+ent Blog", 'The V Spot', 'Topix Blog', 'Althouse', 'The Mouthy Housewives', 'Met
+aFilter', 'Truthdig: Drilling Beneath the Headlines', 'Lifehack', "Seth Godin's
+Blog on marketing, tribes and respect", 'PerezHilton', 'Ubergizmo', 'A Consuming
+ Experience (full feed)', 'mezzoblue', 'Matt Cutts: Gadgets, Google, and SEO', '
+NewsBusters - Exposing Liberal Media Bias', 'Wired Top Stories', 'The Official G
+oogle Blog', 'Crooks and Liars', 'WIL WHEATON dot NET', 'F-Measure', "Jeremy Zaw
+odny's blog", 'Neatorama', 'Autoblog', 'Google Blogoscoped', 'plasticbag.org', '
+Gawker', 'The GypsyNester', "Margie's Moments of Tiyoweh"]
+-------------------------------
+['Via Meadia']
+-------------------------------
+[]
+-------------------------------
+['The Art of Manliness']
+
+c:\Users\Mohamed\Desktop\assignment9>
+
+##########################################################################
+ k = 10
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+Iteration 51
+Iteration 52
+Iteration 53
+Iteration 54
+Iteration 55
+Iteration 56
+Iteration 57
+Iteration 58
+Iteration 59
+Iteration 60
+Iteration 61
+Iteration 62
+Iteration 63
+Iteration 64
+Iteration 65
+Iteration 66
+Iteration 67
+Iteration 68
+Iteration 69
+Iteration 70
+Iteration 71
+Iteration 72
+Iteration 73
+Iteration 74
+Iteration 75
+Iteration 76
+Iteration 77
+Iteration 78
+Iteration 79
+Iteration 80
+Iteration 81
+Iteration 82
+Iteration 83
+Iteration 84
+Iteration 85
+Iteration 86
+Iteration 87
+Iteration 88
+Iteration 89
+Iteration 90
+Iteration 91
+Iteration 92
+Iteration 93
+Iteration 94
+Iteration 95
+Iteration 96
+Iteration 97
+Iteration 98
+Iteration 99
+-------------------------------
+['The Huffington Post | Wire Services Feed', 'bogus data']
+-------------------------------
+[]
+-------------------------------
+[]
+-------------------------------
+['43 Folders', 'Deadspin', "O'Reilly Radar", 'Slashdot', 'Engadget RSS Feed', 'P
+aul Krugman', '456 Berea Street', 'MetaFilter', 'Truthdig: Drilling Beneath the
+Headlines', 'NewsBusters - Exposing Liberal Media Bias', 'Google Blogoscoped']
+-------------------------------
+[]
+-------------------------------
+['Uncrate', 'Web Science and Digital Libraries Research Group', 'Droid Life', 'H
+ow to Change the World', 'TUAW - The Unofficial Apple Weblog', 'Mashable', 'over
+50feeling40', 'Bloggers Blog', 'SimpleBits', 'flagrantdisregard', 'Scobleizer',
+'Joystiq', "John Battelle's Search Blog", "Joi Ito's Web", 'The Official Google
+Blog', 'Quick Online Tips']
+-------------------------------
+['The V Spot']
+-------------------------------
+['Eschaton', 'Word Nerd Speaks', 'The Huffington Post Full Blog Feed', 'ArtsBeat
+', 'The Succulent Wife', 'Via Meadia', 'The Dish', 'Michelle Malkin', 'Gothamist
+', 'ongoing by Tim Bray', "Captain's Quarters", 'The Art of Manliness', 'Copyblo
+gger', "Kalyn's Kitchen", 'Pharyngula', 'Althouse', 'The Mouthy Housewives', 'Wi
+red Top Stories', 'Crooks and Liars', 'WIL WHEATON dot NET', 'F-Measure', 'Neato
+rama', 'Autoblog', 'The GypsyNester', "Margie's Moments of Tiyoweh"]
+-------------------------------
+[]
+-------------------------------
+['Publishing 2.0', 'Joho the Blog', 'Legal Insurrection', 'Marginal Revolution',
+ "Neil Gaiman's Journal", 'Online Marketing Report', 'Kotaku', 'Business Insider
+', '@ProBlogger', 'Search Engine Watch - Latest', 'CONFESSIONS OF A FAT GIRL', '
+Google Operating System', 'Gizmodo', 'Lifehacker', 'ShoeMoney', 'Instapundit', '
+BuzzMachine', 'The Viral Garden', 'ProFootballTalk  Rumor Mill', 'Ignite Social
+Media', 'blog maverick', 'The Huffington Post | Full News Feed', 'Little Green F
+ootballs', 'Boing Boing', 'Schneier on Security', 'Search Engine Roundtable', 'H
+uffington Post', 'Techdirt.', 'Jezebel', 'TechCrunch', "Steve Pavlina's Personal
+ Development Blog", 'Topix Blog', 'Lifehack', "Seth Godin's Blog on marketing, t
+ribes and respect", 'Gossip Cop', 'PerezHilton', 'Ubergizmo', 'A Consuming Exper
+ience (full feed)', 'mezzoblue', 'Matt Cutts: Gadgets, Google, and SEO', "Jeremy
+ Zawodny's blog", 'Hot Air  Top Picks', 'gapingvoid: "cartoons drawn on the back
+ of business cards"', 'plasticbag.org', 'Gawker']
+ 
+ ##################################################################################
+ 
+ 
+ k = 20
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+Iteration 51
+Iteration 52
+Iteration 53
+Iteration 54
+Iteration 55
+Iteration 56
+Iteration 57
+Iteration 58
+Iteration 59
+Iteration 60
+Iteration 61
+Iteration 62
+Iteration 63
+Iteration 64
+Iteration 65
+Iteration 66
+Iteration 67
+Iteration 68
+Iteration 69
+Iteration 70
+Iteration 71
+Iteration 72
+Iteration 73
+Iteration 74
+Iteration 75
+Iteration 76
+Iteration 77
+Iteration 78
+Iteration 79
+Iteration 80
+Iteration 81
+Iteration 82
+Iteration 83
+Iteration 84
+Iteration 85
+Iteration 86
+Iteration 87
+Iteration 88
+Iteration 89
+Iteration 90
+Iteration 91
+Iteration 92
+Iteration 93
+Iteration 94
+Iteration 95
+Iteration 96
+Iteration 97
+Iteration 98
+Iteration 99
+-------------------------------
+['bogus data', 'flagrantdisregard']
+-------------------------------
+['The Huffington Post | Wire Services Feed']
+-------------------------------
+[]
+-------------------------------
+['Search Engine Watch - Latest']
+-------------------------------
+['Legal Insurrection', 'Online Marketing Report', 'Kotaku', '@ProBlogger', 'Goog
+le Operating System', 'Little Green Footballs', 'Schneier on Security', 'Truthdi
+g: Drilling Beneath the Headlines', 'PerezHilton', 'Matt Cutts: Gadgets, Google,
+ and SEO', 'Hot Air  Top Picks']
+-------------------------------
+['Uncrate']
+-------------------------------
+['Gossip Cop']
+-------------------------------
+[]
+-------------------------------
+['Publishing 2.0']
+-------------------------------
+['ArtsBeat', 'Business Insider', 'Mashable', 'Gizmodo', "Captain's Quarters", 'T
+he Huffington Post | Full News Feed', 'Huffington Post', "Joi Ito's Web", 'Jezeb
+el', 'Topix Blog', 'mezzoblue', 'NewsBusters - Exposing Liberal Media Bias', 'Ne
+atorama']
+-------------------------------
+['Eschaton', 'The Succulent Wife', 'Via Meadia', 'The Mouthy Housewives', 'F-Mea
+sure', 'The GypsyNester']
+-------------------------------
+[]
+-------------------------------
+['Word Nerd Speaks', 'Joho the Blog', 'Marginal Revolution', "Neil Gaiman's Jour
+nal", 'Web Science and Digital Libraries Research Group', 'Droid Life', 'How to
+Change the World', '43 Folders', 'The Dish', "O'Reilly Radar", 'TUAW - The Unoff
+icial Apple Weblog', 'CONFESSIONS OF A FAT GIRL', 'over50feeling40', 'Lifehacker
+', 'ShoeMoney', 'Slashdot', 'BuzzMachine', 'ongoing by Tim Bray', 'The Viral Gar
+den', 'Joystiq', 'ProFootballTalk  Rumor Mill', 'Ignite Social Media', 'Copyblog
+ger', "John Battelle's Search Blog", 'Engadget RSS Feed', 'Techdirt.', "Kalyn's
+Kitchen", '456 Berea Street', 'Pharyngula', 'TechCrunch', "Steve Pavlina's Perso
+nal Development Blog", 'The V Spot', 'Ubergizmo', 'A Consuming Experience (full
+feed)', 'The Official Google Blog', 'WIL WHEATON dot NET', "Jeremy Zawodny's blo
+g", 'Autoblog', 'Google Blogoscoped', 'plasticbag.org', 'Gawker']
+-------------------------------
+['Michelle Malkin', 'SimpleBits', 'Scobleizer', 'The Art of Manliness', 'blog ma
+verick', 'Boing Boing', 'MetaFilter', "Seth Godin's Blog on marketing, tribes an
+d respect", 'Wired Top Stories', 'Quick Online Tips', 'gapingvoid: "cartoons dra
+wn on the back of business cards"']
+-------------------------------
+['Deadspin', 'Gothamist', 'Instapundit', 'Althouse', 'Lifehack', "Margie's Momen
+ts of Tiyoweh"]
+-------------------------------
+['Search Engine Roundtable']
+-------------------------------
+['Bloggers Blog']
+-------------------------------
+[]
+-------------------------------
+[]
+-------------------------------
+['The Huffington Post Full Blog Feed', 'Paul Krugman', 'Crooks and Liars']
+
+c:\Users\Mohamed\Desktop\assignment9>]
+
+##########################################################
+
+Adding 1 - in pearson function:
+c:\Users\Mohamed\Desktop\assignment9>python cluster.py
+ k = 5
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+-------------------------------
+["Neil Gaiman's Journal", 'Web Science and Digital Libraries Research Group', 'B
+usiness Insider', 'TUAW - The Unofficial Apple Weblog', 'over50feeling40', 'Gizm
+odo', 'Gothamist', 'bogus data', 'Joystiq', 'The Art of Manliness', 'Boing Boing
+', 'Techdirt.', 'Jezebel', 'The V Spot', 'Topix Blog', "Seth Godin's Blog on mar
+keting, tribes and respect", 'Ubergizmo', 'Wired Top Stories', 'F-Measure', 'Aut
+oblog']
+-------------------------------
+['Uncrate', 'Droid Life', 'Search Engine Watch - Latest', "O'Reilly Radar", 'Goo
+gle Operating System', 'Mashable', 'Bloggers Blog', 'Scobleizer', 'Search Engine
+ Roundtable', 'Engadget RSS Feed', 'TechCrunch', 'Truthdig: Drilling Beneath the
+ Headlines', 'The Official Google Blog', 'Quick Online Tips', 'Google Blogoscope
+d']
+-------------------------------
+['Publishing 2.0', 'Joho the Blog', 'Marginal Revolution', 'The Succulent Wife',
+ '@ProBlogger', 'Via Meadia', 'The Dish', 'The Huffington Post | Wire Services F
+eed', 'Michelle Malkin', 'SimpleBits', 'ShoeMoney', 'Instapundit', 'BuzzMachine'
+, 'flagrantdisregard', 'Ignite Social Media', 'Copyblogger', "John Battelle's Se
+arch Blog", "Steve Pavlina's Personal Development Blog", 'The Mouthy Housewives'
+, 'PerezHilton', 'Matt Cutts: Gadgets, Google, and SEO', 'gapingvoid: "cartoons
+drawn on the back of business cards"', 'The GypsyNester', "Margie's Moments of T
+iyoweh"]
+-------------------------------
+['Word Nerd Speaks', 'The Huffington Post Full Blog Feed', 'Legal Insurrection',
+ 'ArtsBeat', 'Online Marketing Report', 'Kotaku', '43 Folders', 'Deadspin', 'CON
+FESSIONS OF A FAT GIRL', 'Lifehacker', 'Slashdot', 'The Viral Garden', "Captain'
+s Quarters", 'ProFootballTalk  Rumor Mill', 'blog maverick', 'The Huffington Pos
+t | Full News Feed', 'Little Green Footballs', 'Huffington Post', 'Paul Krugman'
+, "Kalyn's Kitchen", '456 Berea Street', 'Pharyngula', 'MetaFilter', 'Gossip Cop
+', 'A Consuming Experience (full feed)', 'mezzoblue', 'NewsBusters - Exposing Li
+beral Media Bias', 'Crooks and Liars', 'WIL WHEATON dot NET', "Jeremy Zawodny's
+blog", 'Hot Air  Top Picks', 'Neatorama', 'plasticbag.org', 'Gawker']
+-------------------------------
+['Eschaton', 'How to Change the World', 'ongoing by Tim Bray', 'Schneier on Secu
+rity', "Joi Ito's Web", 'Althouse', 'Lifehack']
+ k = 10
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+-------------------------------
+['Business Insider', 'TUAW - The Unofficial Apple Weblog', 'bogus data', 'Joysti
+q', 'Ubergizmo']
+-------------------------------
+['Word Nerd Speaks', 'Online Marketing Report', 'Kotaku', '43 Folders', 'Search
+Engine Watch - Latest', 'Deadspin', 'CONFESSIONS OF A FAT GIRL', 'Google Operati
+ng System', 'Mashable', 'Lifehacker', 'Slashdot', 'ongoing by Tim Bray', 'blog m
+averick', 'The Huffington Post | Full News Feed', 'Search Engine Roundtable', 'E
+ngadget RSS Feed', 'Huffington Post', "Kalyn's Kitchen", 'Pharyngula', 'MetaFilt
+er', 'Gossip Cop', 'A Consuming Experience (full feed)', 'mezzoblue', 'The Offic
+ial Google Blog', 'WIL WHEATON dot NET', 'Quick Online Tips', "Jeremy Zawodny's
+blog", 'Google Blogoscoped', 'plasticbag.org', 'Gawker']
+-------------------------------
+["Neil Gaiman's Journal"]
+-------------------------------
+['Uncrate', 'Via Meadia', 'Autoblog']
+-------------------------------
+['Web Science and Digital Libraries Research Group', 'over50feeling40', 'Gizmodo
+', 'Gothamist', 'The Art of Manliness', 'Boing Boing', 'Jezebel', 'The V Spot',
+'Topix Blog', "Seth Godin's Blog on marketing, tribes and respect", 'Wired Top S
+tories', 'F-Measure']
+-------------------------------
+['@ProBlogger', 'Bloggers Blog', 'The Viral Garden', 'Ignite Social Media', "Joh
+n Battelle's Search Blog", 'Paul Krugman', "Joi Ito's Web", 'Truthdig: Drilling
+Beneath the Headlines', 'Lifehack']
+-------------------------------
+['Publishing 2.0', 'Joho the Blog', 'Marginal Revolution', 'The Succulent Wife',
+ 'Droid Life', 'The Dish', 'ShoeMoney', 'BuzzMachine', 'flagrantdisregard', 'Sco
+bleizer', 'Copyblogger', 'TechCrunch', "Steve Pavlina's Personal Development Blo
+g", 'PerezHilton', 'Matt Cutts: Gadgets, Google, and SEO', 'The GypsyNester']
+-------------------------------
+['Neatorama']
+-------------------------------
+['How to Change the World', 'The Huffington Post | Wire Services Feed', "O'Reill
+y Radar", 'Michelle Malkin', 'SimpleBits', 'Instapundit', 'The Mouthy Housewives
+', 'Hot Air  Top Picks', 'gapingvoid: "cartoons drawn on the back of business ca
+rds"', "Margie's Moments of Tiyoweh"]
+-------------------------------
+['Eschaton', 'The Huffington Post Full Blog Feed', 'Legal Insurrection', 'ArtsBe
+at', "Captain's Quarters", 'ProFootballTalk  Rumor Mill', 'Little Green Football
+s', 'Schneier on Security', 'Techdirt.', '456 Berea Street', 'Althouse', 'NewsBu
+sters - Exposing Liberal Media Bias', 'Crooks and Liars']
+ k = 20
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+-------------------------------
+['Bloggers Blog', 'bogus data', 'The Viral Garden', 'Ignite Social Media', 'Copy
+blogger', 'Paul Krugman', "Joi Ito's Web", 'Lifehack']
+-------------------------------
+['Eschaton', 'The Huffington Post Full Blog Feed', 'Online Marketing Report', '4
+3 Folders', 'ongoing by Tim Bray', "Kalyn's Kitchen", 'Pharyngula', 'mezzoblue',
+ "Jeremy Zawodny's blog", 'plasticbag.org']
+-------------------------------
+['Word Nerd Speaks', 'The Huffington Post | Full News Feed', 'Huffington Post',
+'Gossip Cop', 'Gawker']
+-------------------------------
+['Business Insider', 'Neatorama']
+-------------------------------
+['Web Science and Digital Libraries Research Group']
+-------------------------------
+["Neil Gaiman's Journal", 'over50feeling40', 'Gizmodo', 'Gothamist', 'Joystiq',
+'The Art of Manliness', 'Boing Boing', 'Jezebel', 'F-Measure', 'Autoblog']
+-------------------------------
+['Uncrate', 'Legal Insurrection', 'The Huffington Post | Wire Services Feed', 'M
+etaFilter']
+-------------------------------
+['CONFESSIONS OF A FAT GIRL', 'WIL WHEATON dot NET', 'Hot Air  Top Picks']
+-------------------------------
+[]
+-------------------------------
+['The V Spot', 'Topix Blog', "Seth Godin's Blog on marketing, tribes and respect
+", 'Ubergizmo', 'Wired Top Stories']
+-------------------------------
+['blog maverick', '456 Berea Street', 'A Consuming Experience (full feed)']
+-------------------------------
+[]
+-------------------------------
+['How to Change the World', 'TUAW - The Unofficial Apple Weblog']
+-------------------------------
+[]
+-------------------------------
+[]
+-------------------------------
+['Publishing 2.0', 'Joho the Blog', 'Marginal Revolution', 'The Succulent Wife',
+ '@ProBlogger', 'The Dish', 'Michelle Malkin', 'SimpleBits', 'Instapundit', 'Buz
+zMachine', 'flagrantdisregard', 'Scobleizer', "John Battelle's Search Blog", "St
+eve Pavlina's Personal Development Blog", 'The Mouthy Housewives', 'PerezHilton'
+, 'Matt Cutts: Gadgets, Google, and SEO', 'gapingvoid: "cartoons drawn on the ba
+ck of business cards"', 'The GypsyNester', "Margie's Moments of Tiyoweh"]
+-------------------------------
+['Droid Life', 'Kotaku', 'Search Engine Watch - Latest', 'Deadspin', "O'Reilly R
+adar", 'Google Operating System', 'Mashable', 'Lifehacker', 'Slashdot', 'Search
+Engine Roundtable', 'Engadget RSS Feed', 'TechCrunch', 'Truthdig: Drilling Benea
+th the Headlines', 'The Official Google Blog', 'Quick Online Tips', 'Google Blog
+oscoped']
+-------------------------------
+['ArtsBeat', "Captain's Quarters", 'ProFootballTalk  Rumor Mill', 'Little Green
+Footballs', 'Schneier on Security', 'Techdirt.', 'Althouse', 'NewsBusters - Expo
+sing Liberal Media Bias', 'Crooks and Liars']
+-------------------------------
+['Via Meadia', 'ShoeMoney']
+-------------------------------
+[]
+
+c:\Users\Mohamed\Desktop\assignment9>
+############################################################

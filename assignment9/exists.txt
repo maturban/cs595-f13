@@ -1,0 +1,154 @@
+c:\Users\Mohamed\Desktop\assignment9>python generatefeedvector2.py
+New title[F-Measure]    URL[http://f-measure.blogspot.com/feeds/posts/default?al
+t=rss]
+New title[Web Science and Digital Libraries Research Group]    URL[http://ws-dl.
+blogspot.com/feeds/posts/default?alt=rss]
+New title[Eschaton]    URL[http://feeds.feedburner.com/blogspot/bRuz]
+New title[John Battelle's Search Blog]    URL[http://battellemedia.com/index.xml
+]
+New title[How to Change the World]    URL[http://blog.guykawasaki.com/index.rdf]
+
+New title[Google Blogoscoped]    URL[http://blog.outer-court.com/rss.xml]
+New title[Search Engine Watch - Latest]    URL[http://feeds.searchenginewatch.co
+m/sewblog]
+New title[Topix Blog]    URL[http://blog.topix.net/index.rdf]
+Invalid url http://blogs.abcnews.com/theblotter/index.rdf
+
+New title[bogus data]    URL[http://blogs.abcnews.com/theblotter/index.rdf]
+New title[A Consuming Experience (full feed)]    URL[http://feeds.feedburner.com
+/ConsumingExperienceFull]
+New title[flagrantdisregard]    URL[http://flagrantdisregard.com/index.php/feed/
+]
+New title[Gizmodo]    URL[http://gizmodo.com/index.xml]
+New title[The Official Google Blog]    URL[http://googleblog.blogspot.com/rss.xm
+l]
+New title[Google Operating System]    URL[http://feeds.feedburner.com/GoogleOper
+atingSystem]
+New title[Hot Air  Top Picks]    URL[http://feeds.feedburner.com/hotair/main]
+New title[Instapundit]    URL[http://feeds.feedburner.com/instapundit/main]
+New title[Jeremy Zawodny's blog]    URL[http://jeremy.zawodny.com/blog/rss2.xml]
+
+New title[Joi Ito's Web]    URL[http://joi.ito.com/index.rdf]
+New title[Mashable]    URL[http://feeds.feedburner.com/Mashable]
+New title[Michelle Malkin]    URL[http://michellemalkin.com/index.rdf]
+New title[The Viral Garden]    URL[http://moblogsmoproblems.blogspot.com/rss.xml
+]
+New title[NewsBusters - Exposing Liberal Media Bias]    URL[http://newsbusters.o
+rg/node/feed]
+New title[Online Marketing Report]    URL[http://beta.blogger.com/feeds/27154654
+/posts/full?alt=rss]
+New title[Publishing 2.0]    URL[http://feeds.feedburner.com/Publishing20]
+New title[O'Reilly Radar]    URL[http://radar.oreilly.com/index.rdf]
+New title[Pharyngula]    URL[http://scienceblogs.com/pharyngula/index.xml]
+New title[Scobleizer]    URL[http://scobleizer.wordpress.com/feed/]
+New title[Seth Godin's Blog on marketing, tribes and respect]    URL[http://seth
+godin.typepad.com/seths_blog/index.rdf]
+New title[Slashdot]    URL[http://rss.slashdot.org/Slashdot/slashdot]
+New title[The Dish]    URL[http://feeds.feedburner.com/andrewsullivan/rApM]
+New title[WIL WHEATON dot NET]    URL[http://wilwheaton.typepad.com/wwdnbackup/i
+ndex.rdf]
+New title[43 Folders]    URL[http://www.43folders.com/feed/]
+New title[456 Berea Street]    URL[http://www.456bereastreet.com/feed.xml]
+New title[Autoblog]    URL[http://www.autoblog.com/rss.xml]
+New title[Bloggers Blog]    URL[http://www.bloggersblog.com/rss.xml]
+New title[blog maverick]    URL[http://www.blogmaverick.com/rss.xml]
+New title[Boing Boing]    URL[http://www.boingboing.net/index.rdf]
+New title[BuzzMachine]    URL[http://www.buzzmachine.com/index.xml]
+New title[Captain's Quarters]    URL[http://www.captainsquartersblog.com/mt/inde
+x.rdf]
+New title[Copyblogger]    URL[http://feeds.copyblogger.com/Copyblogger]
+New title[Crooks and Liars]    URL[http://feeds.feedburner.com/crooksandliars/Ya
+CP]
+New title[Deadspin]    URL[http://www.deadspin.com/index.xml]
+New title[Engadget RSS Feed]    URL[http://www.engadget.com/rss.xml]
+New title[gapingvoid: "cartoons drawn on the back of business cards"]    URL[htt
+p://www.gapingvoid.com/index.rdf]
+New title[Gawker]    URL[http://www.gawker.com/index.xml]
+New title[Gothamist]    URL[http://www.gothamist.com/index.rdf]
+New title[Joho the Blog]    URL[http://www.hyperorg.com/blogger/index.rdf]
+New title[Joystiq]    URL[http://www.joystiq.com/rss.xml]
+New title[Kotaku]    URL[http://www.kotaku.com/index.xml]
+New title[Lifehack]    URL[http://www.lifehack.org/feed/]
+New title[Lifehacker]    URL[http://www.lifehacker.com/index.xml]
+New title[Little Green Footballs]    URL[http://littlegreenfootballs.com/weblog/
+lgf-rss.php]
+Invalid url http://www.makezine.com/blog/index.xml
+
+Title already exists [bogus data]    URL[http://www.makezine.com/blog/index.xml]
+
+New title[Matt Cutts: Gadgets, Google, and SEO]    URL[http://www.mattcutts.com/
+blog/feed/]
+New title[MetaFilter]    URL[http://xml.metafilter.com/rss.xml]
+New title[mezzoblue]    URL[http://www.mezzoblue.com/rss/index.xml]
+Invalid url http://www.micropersuasion.com/index.rdf
+
+Title already exists [bogus data]    URL[http://www.micropersuasion.com/index.rd
+f]
+New title[Neil Gaiman's Journal]    URL[http://www.neilgaiman.com/journal/feed/r
+ss.xml]
+New title[PerezHilton]    URL[http://www.perezhilton.com/index.xml]
+New title[plasticbag.org]    URL[http://www.plasticbag.org/index.rdf]
+New title[@ProBlogger]    URL[http://www.problogger.net/feed/]
+New title[Quick Online Tips]    URL[http://feeds.feedburner.com/QuickOnlineTips]
+
+New title[Schneier on Security]    URL[http://www.schneier.com/blog/index.rdf]
+New title[Search Engine Roundtable]    URL[http://www.seroundtable.com/index.rdf
+]
+New title[ShoeMoney]    URL[http://www.shoemoney.com/feed/]
+New title[SimpleBits]    URL[http://www.simplebits.com/xml/rss.xml]
+New title[Steve Pavlina's Personal Development Blog]    URL[http://www.stevepavl
+ina.com/blog/feed]
+New title[ongoing by Tim Bray]    URL[http://www.tbray.org/ongoing/ongoing.rss]
+New title[TechCrunch]    URL[http://feeds.feedburner.com/TechCrunch]
+New title[Techdirt.]    URL[http://www.techdirt.com/techdirt_rss.xml]
+New title[TUAW - The Unofficial Apple Weblog]    URL[http://www.tuaw.com/rss.xml
+]
+Invalid url http://www.valleywag.com/index.xml
+
+Title already exists [bogus data]    URL[http://www.valleywag.com/index.xml]
+New title[Wired Top Stories]    URL[http://www.wired.com/rss/index.xml]
+New title[The Art of Manliness]    URL[http://feeds2.feedburner.com/TheArtOfManl
+iness]
+New title[The Huffington Post | Full News Feed]    URL[http://feeds.huffingtonpo
+st.com/huffingtonpost/LatestNews]
+New title[The Huffington Post Full Blog Feed]    URL[http://feeds.huffingtonpost
+.com/huffingtonpost/TheBlog]
+New title[Huffington Post]    URL[http://www.huffingtonpost.com/feeds/original_p
+osts/index.xml]
+New title[The Huffington Post | Wire Services Feed]    URL[http://www.huffington
+post.com/wires/full_index.rdf]
+Title already exists [Gawker]    URL[http://feeds.gawker.com/gawker/full]
+New title[Business Insider]    URL[http://feeds2.feedburner.com/businessinsider]
+
+Title already exists [Lifehacker]    URL[http://feeds.gawker.com/lifehacker/full
+]
+Title already exists [Mashable]    URL[http://feeds.mashable.com/Mashable]
+Title already exists [PerezHilton]    URL[http://i.perezhilton.com/?feed=rss2]
+New title[Jezebel]    URL[http://feeds.gawker.com/jezebel/full]
+Title already exists [Kotaku]    URL[http://feeds.gawker.com/kotaku/full]
+Title already exists [Wired Top Stories]    URL[http://feeds.wired.com/wired/ind
+ex]
+New title[Uncrate]    URL[http://feeds.feedburner.com/uncrate]
+New title[ProFootballTalk  Rumor Mill]    URL[http://profootballtalk.nbcsports.c
+om/category/rumor-mill/index.xml]
+New title[Ignite Social Media]    URL[http://www.ignitesocialmedia.com/feed/]
+New title[The V Spot]    URL[http://www.thevspotblog.com/feeds/posts/default?alt
+=rss]
+Title already exists [The V Spot]    URL[http://feeds.feedblitz.com/TheVSpot]
+New title[Word Nerd Speaks]    URL[http://www.word-nerd-speaks.com/feeds/posts/d
+efault?alt=rss]
+New title[CONFESSIONS OF A FAT GIRL]    URL[http://www.confessionsofafatgirl.net
+/blog/index.rdf]
+New title[The GypsyNester]    URL[http://www.gypsynester.com/?feed=rss2]
+Title already exists [The GypsyNester]    URL[http://feeds.feedburner.com/gypsyn
+ester/NyBa]
+New title[The Mouthy Housewives]    URL[http://mouthyhousewives.com/feed]
+New title[Kalyn's Kitchen]    URL[http://www.kalynskitchen.com/feeds/posts/defau
+lt?alt=rss]
+New title[The Succulent Wife]    URL[http://www.thesucculentwife.com/feed/]
+New title[over50feeling40]    URL[http://www.over50feeling40.com/feeds/posts/def
+ault?alt=rss]
+New title[Margie's Moments of Tiyoweh]    URL[http://www.margieclayman.com/feed]
+
+
+c:\Users\Mohamed\Desktop\assignment9>
